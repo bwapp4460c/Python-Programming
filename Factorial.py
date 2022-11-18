@@ -8,9 +8,9 @@ def fact(num):
         factorial = 1
         
     else:
-      factorial = num * factorial(n-1)
+      factorial = num * fact(num-1)
       
-    return fact
+    return factorial
 
 
 
